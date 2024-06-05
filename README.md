@@ -15,37 +15,40 @@ Installation
 
 1. Clone the Repository
     * Run the following commands:
-
+	```{bash}
     	git clone https://github.com/mtross2/transformer_regulatory_sequence.git
-
+	```
+	```{bash}
     	cd transformer_regulatory_sequence
-
+	```
 2. Set Up a Virtual Environment (Optional but recommended)
 
     * For Windows:
-
+	```{bash}
         python -m venv venv
-
+	```
+	```{bash}
         .\venv\Scripts\activate
-
+	```
     * For Unix or MacOS:
-    
+    	```{bash}
         python3 -m venv venv
-
+	```
+	```{bash}
         source venv/bin/activate
-
+	```
 3. Install Required Packages
 
     * Execute the command:
-
+	```{bash}
         pip install -r requirements.txt
-
+	```
 4. Install Your Package (Optional if you want to use it as a package)
 
     * Use this command:
-
+	```{bash}
         python setup.py install
-
+	```
 # Training Gene Expression Prediction Model
 
 This script (`train.py`) is used to train a deep learning model for predicting gene expression levels based on gene sequences.
