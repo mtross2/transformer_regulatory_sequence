@@ -1,5 +1,9 @@
-Autoencoder Trainer
+Custom transformer model
+
 Overview
+
+* This project includes a pytorch implementation of a customer transformer model that takes as input contextual sequence for genes of interest, predict relative gene expression and produce saliency for maps for the input sequence.
+
 
 Getting Started
 Prerequisites
