@@ -95,17 +95,6 @@ python predict.py --model /path/to/model.pth --sequence_file /path/to/sequence.t
     sequence_file: Path to the file containing gene sequence.
     expression_file: Path to the file containing gene expression data.
 
-# Dependencies
-
-# Ensure you have the necessary dependencies installed by running:
-
-```{bash}
-pip install -r requirements.txt
-```
-
-# Project Setup
-
-
 # License
 
 This project is licensed under the CC-BY-NC  License. See the LICENSE file for details.
