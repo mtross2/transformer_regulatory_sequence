@@ -74,15 +74,6 @@ Arguments
     num_genes: Number of genes for training.
     num_val_genes: Number of genes for validation.
 
-
-
-## Dependencies
-
-## Ensure you have the necessary dependencies installed by running:
-```{bash}
-pip install -r requirements.txt
-```
-
 # Gene Saliency Prediction
 
 This script (`predict.py`) is used to predict gene expression levels and generate saliency maps based on provided gene sequences.
