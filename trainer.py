@@ -52,7 +52,7 @@ def train(**kwargs):
     max_seq_len = kwargs['seq_max_len']
     
     # Instantiate the model
-    model = TransformerLayer().to(device)
+    model = customTransformer().to(device)
     # model.load_state_dict(torch.load('/content/drive/MyDrive/maize_training_organs_famSplits/NEW_TISSUES/maize_03_03_2024__01_Epoch10.pth'))
     
     criterion = nn.BCEWithLogitsLoss()
