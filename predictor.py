@@ -117,6 +117,7 @@ def predict(**kwargs):
     
     # Forward pass to get model predictions
     outputs = model(my_input).flatten()
+    outputs = sigmoid(outputs.tolist())
         
     # Zero gradients
     model.zero_grad()
