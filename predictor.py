@@ -100,7 +100,7 @@ def predict(**kwargs):
     criterion = torch.nn.L1Loss()
     
     # Load pre-trained model
-    model = TransformerLayer()
+    model = customTransformer()
     model.load_state_dict(torch.load(model_path, map_location=device))
     model.position_encoding.requires_grad = False
     model.eval()
