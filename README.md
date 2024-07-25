@@ -3,7 +3,8 @@ Custom transformer model
 Overview
 
 * This project includes a pytorch implementation of a customer transformer model that takes as input contextual sequence for genes of interest, predict relative gene expression and produce saliency for maps for the input sequence.
-* Implemented in: Tross, M. C., Duggan, G., Shrestha, N., & Schnable, J. C. (2024). Models trained to predict differential expression across plant organs identify distal and proximal regulatory regions. bioRxiv, 2024-06. https://doi.org/10.1002/ppj2.20106
+* Implemented in:
+  Tross, M. C., Duggan, G., Shrestha, N., & Schnable, J. C. (2024). Models trained to predict differential expression across plant organs identify distal and proximal regulatory regions. bioRxiv, 2024-06. https://doi.org/10.1002/ppj2.20106
 
 
 Getting Started
