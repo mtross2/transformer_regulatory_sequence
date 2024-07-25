@@ -3,7 +3,7 @@ Custom transformer model
 Overview
 
 * This project includes a pytorch implementation of a customer transformer model that takes as input contextual sequence for genes of interest, predict relative gene expression and produce saliency for maps for the input sequence.
-* Approach implemented in "Tross, M. C, Grzybowski, M. W, Jubery, T. Z, Grove, R. J, Nishimwe, A. V, Torres-Rodriguez, J. V., Sun, G., Ganapathysubramanian, B., Ge, Y., & Schnable, J. C. (2024). Data driven discovery and quantification of hyperspectral leaf reflectance phenotypes across a maize diversity panel. The Plant Phenome Journal, 7, e20106. https://doi.org/10.1002/ppj2.20106"
+* Implemented in: Tross, M. C., Duggan, G., Shrestha, N., & Schnable, J. C. (2024). Models trained to predict differential expression across plant organs identify distal and proximal regulatory regions. bioRxiv, 2024-06. https://doi.org/10.1002/ppj2.20106
 
 
 Getting Started
